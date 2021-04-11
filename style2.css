@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    max-width: 960px;
+    margin: auto;
+    font-family: "PT Sans";
+    
+}
+
+header {
+    border-top: white;
+    border-left: thin;
+    border-right: thin;
+    border-style: outset;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-width: -50px;
+    border-bottom-color: white;
+    
+    
+}
+nav {
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+    font-size: 20px;
+    margin-left: 60px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 7px;
+    font-size: 10px;
+    color: black;
+}
+
+
+.nav-icon{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size:small ;
+    margin-right: 30px;
+    
+} 
+.nav-icon i{
+    padding: 0 7px;
+}
+#search{
+    margin-right: 30px;
+}
+
+#Home{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.content {
+    display: block;
+    margin-left: 75px;
+}
+
+img {
+    width: 50%;
+    float: left;
+   
+}
+
+
+.content-desc {
+    width: 50%;
+    float: right;
+    margin-top: 35 ;
+}
+
+#SocialMedia{
+    font-weight: bold;
+}
+
+.footericon i{
+    padding: 0 20px;
+}
+
+#facebook{
+    color: rgb(17, 17, 97);
+}
+#twitter{
+color: rgb(8, 155, 205);
+}
+    #youtube{
+        color: red;
+    }
+    #instagram{
+        color: rgb(242, 16, 16)
+    }
+
+    .footericon a{
+        text-decoration: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .header-right a {
+            float: none;
+           width:100%;
+           display: block;}}
